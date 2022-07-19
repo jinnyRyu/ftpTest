@@ -16,7 +16,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 @Slf4j
 class FtpTestApplicationTests {
 
-
+    String username = "";
+    String host = "";
+    int port = 22;
+    String password = "";
+    String ftpDir = "";
 
     @Test
     void contextLoads() throws JSchException, SftpException {
